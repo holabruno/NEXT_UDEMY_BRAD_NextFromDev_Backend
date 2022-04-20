@@ -1,3 +1,4 @@
+/*
 module.exports = ({ env }) => ({
   // ...
   upload: {
@@ -9,10 +10,11 @@ module.exports = ({ env }) => ({
     },
     actionOptions: {
       upload: {
-        folder: {},
+        folder: env("CLOUDINARY FOLDER"),
       },
       delete: {},
     },
   },
   // ...
 });
+*/
